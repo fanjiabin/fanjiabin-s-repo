@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>我的购物车</title>
+<link rel="shortcut icon" href="images/icon/shopcar_head.ico" />
+<link type="text/css" rel="stylesheet" href="style/reset.css" />
+<link type="text/css" rel="stylesheet" href="style/main.css" />
+<link type="text/css" rel="stylesheet" href="style/button_style.css" />
+<script language="javascript" type="text/javascript" src="js/jquery.min.js"></script><!--引用jQuery库版本号为1.9.1-->
+<script type="text/javascript" src="js/main_script.js"></script>
+</head>
+<body>
+<div class="headBar">
+    <div class="topBar">
+        <div class="comWidth"> <!--暂时未命名,居中模块-->
+            <div class="leftArea">
+                <a href="#" class="collection">收藏本站</a>
+            </div>
+            <div class="rightArea">
+                欢迎来到Shop网！<a href="登录.html">[登录]</a><a href="注册.html">[免费注册]</a>
+            </div>
+        </div>
+    </div>
+    <div class="logoBar">
+        <div class="comWidth"> <!--暂时未命名,居中模块-->
+            <div class="logo fl">
+                <a href="#"><img src="images/logo.jpg" alt="购物网" /></a>
+            </div>
+            <h3 class="shopCar_title">我的购物车</h3>
+            <div class="stepBox fr">
+				<div class="step"></div>
+				<ul class="step_text">
+					<li class="s01 active">我的购物车</li>
+					<li class="s02 active">填写核对订单</li>
+					<li class="s03">订单提交成功</li>
+				</ul>
+			</div>
+        </div>
+    </div>
+</div>
+<div class="shoppingCart comWidth">
+	<div class="shopping_item">
+    	<h3 class="shopping_tit">收货地址</h3>
+        <div class="shopping_cont padding_shop">
+        	<ul class="shopping_list">
+            	<li><span><em>*</em>&nbsp;选择地区 :</span>
+                	<form class="shopping_addr" action="#" method="post" >
+                        <select>
+                          <option value="河北大学新区" select="selected">河北大学新区</option>
+                          <option value="河北大学本部">河北大学本部</option>
+                          <option value="河北大学本部 南院">河北大学本部 南院</option>
+                          <option value="河北大学本部 北院">河北大学本部 北院</option>
+                        </select>
+                    </form>
+                </li>
+                <li><span><em>*</em>&nbsp;详细地址 :</span><input type="text" class="shopping_room" value="请输入详细的宿舍楼名称及宿舍号,床号！" /></li>
+                <li><span><em>*</em>&nbsp;收 货 人&nbsp; :</span><input class="shopping_name" type="text" value="在此填入姓名！" /></li>
+                <li><span><em>*</em>&nbsp;联系方式 :</span><input class="shopping_name" type="text" value="在此填入手机号(荐)！" /></li>
+                <li><span>&nbsp;&nbsp;&nbsp;&nbsp;备&nbsp;&nbsp;&nbsp;&nbsp;注 &nbsp;：</span><input class="shopping_message" type="text" value="" /></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="shoppingCart comWidth">
+	<div class="shopping_item">
+    	<h3 class="shopping_tit">支付方式</h3>
+        <div class="paying_cont padding_shop">
+        	<form action="#" method="post" >
+    			<input type="radio" value="0"  name="gender" />
+    			<label>微信支付</label><p class="pay_weixin">使用微信扫一扫或红包支付。</p><br /><br />
+    			<input type="radio" value="1"  name="gender" />
+                <label>货到付款</label><p class="pay_cash">送货上门之后再付款，使用现金支付（如需找零请在备注说明）。</p>
+			</form>
+        </div>
+    </div>
+</div>
+<div class="shoppingCart comWidth">
+	<div class="shopping_item">
+    	<h3 class="shopping_tit">商品清单</h3>
+        <div class="cart_main">
+        	<table id="cartTable">
+                <thead>
+                    <tr>
+                        <th><label><input class="check-all check" type="checkbox"/>&nbsp;全选</label></th>
+                        <th>商品</th>
+                        <th>单价（￥）</th>
+                        <th>数量</th>
+                        <th>小计</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="goods_checkbox"><input class="check-one check" type="checkbox"/></td>
+                        <td class="goods"><img src="images/goods_01.jpg" alt=""/><span>Casio/卡西欧 EX-TR350</span></td>
+                        <td class="price">5999.88</td>
+                        <td class="count">
+                            <span class="reduce"></span>
+                            <input class="count-input" type="text" value="1"/>
+                            <span class="add">+</span>
+                        </td>
+                        <td class="subtotal">5999.88</td>
+                        <td class="operation"><span class="delete">删除</span></td>
+                    </tr>
+                    <tr>
+                        <td class="goods_checkbox"><input class="check-one check" type="checkbox"/></td>
+                        <td class="goods"><img src="images/goods_02.jpg" alt=""/><span>Canon/佳能 PowerShot SX50 HS</span></td>
+                        <td class="price">3888.50</td>
+                        <td class="count">
+                            <span class="reduce"></span>
+                            <input class="count-input" type="text" value="1"/>
+                            <span class="add">+</span>
+                        </td>
+                        <td class="subtotal">3888.50</td>
+                        <td class="operation"><span class="delete">删除</span></td>
+                    </tr>
+                    <tr>
+                        <td class="goods_checkbox"><input class="check-one check" type="checkbox"/></td>
+                        <td class="goods"><img src="images/goods_03.jpg" alt=""/><span>Sony/索尼 DSC-WX300</span></td>
+                        <td class="price">1428.50</td>
+                        <td class="count">
+                            <span class="reduce"></span>
+                            <input class="count-input" type="text" value="1"/>
+                            <span class="add">+</span>
+                        </td>
+                        <td class="subtotal">1428.50</td>
+                        <td class="operation"><span class="delete">删除</span></td>
+                    </tr>
+                    <tr>
+                        <td class="goods_checkbox"><input class="check-one check" type="checkbox"/></td>
+                        <td class="goods"><img src="images/goods_04.jpg" alt=""/><span>Fujifilm/富士 instax mini 25</span></td>
+                        <td class="price">640.60</td>
+                        <td class="count">
+                            <span class="reduce"></span>
+                            <input class="count-input" type="text" value="1"/>
+                            <span class="add">+</span>
+                        </td>
+                        <td class="subtotal">640.60</td>
+                        <td class="operation"><span class="delete">删除</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="foot comWidth" id="foot">
+    <label class="fl select-all"><input type="checkbox" class="check-all check"/>&nbsp;全选</label>
+    <a class="fl delete" id="deleteAll" href="javascript:;">删除</a>
+    <div class="fr closing">结 算</div>
+    <div class="fr total">合计：￥<span id="priceTotal">0.00</span></div>
+    <div class="fr selected" id="selected">已选商品
+        <span id="selectedTotal">0</span>件
+        <span class="arrow up">︽</span>
+        <span class="arrow down">︾</span>
+    </div>
+    <div class="selected-view comWidth">
+        <div id="selectedViewList" class="clearfix">
+            <!--<div><img src="images/goods_01.jpg"><span>取消选择</span></div>-->
+        </div>
+        <span class="arrow">◆<span>◆</span></span>
+    </div>
+</div>    
+<div class="footer">
+    <p class="p1"><a href="#">网站简介</a>&nbsp;|&nbsp;<a href="#">网站公告</a>&nbsp;|&nbsp; <a href="#">招纳贤士</a>&nbsp;|&nbsp; <a href="#">联系我们</a>&nbsp;|&nbsp;<a href="#">客服热线</a>：400-675-1234</p>
+    <p class="p2">Copyright©范佳斌所有&nbsp;&nbsp;&nbsp;京ICP备*****号&nbsp;&nbsp;&nbsp;京ICP证***-***号&nbsp;&nbsp;&nbsp;某市公安局XX分局备案编号：*********</p>
+    <p class="p3"><a href="#"><img src="images/logo_footer.jpg" alt=""/></a><a href="#"><img src="images/logo_footer.jpg" alt=""/></a><a href="#"><img src="images/logo_footer.jpg" alt=""/></a><a href="#"><img src="images/logo_footer.jpg" alt=""/></a></p>
+</div>    
+</body>
+</html>
