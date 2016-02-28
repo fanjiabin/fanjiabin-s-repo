@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*--------------旋转&放大特效--------------------------------------*/
+.logo img{ transition:0.3s ease-out; -webkit-transition:0.3s ease-out; -o-transition:0.3s ease-out; -moz-transition:0.3s ease-out;}
+/*transform再未设置transition时直接显示结果而忽略了过程，而transition为其增加过渡的过程*/
+.logo img:hover{ transform:/*rotate(360deg)旋转特效*/ scale(0.8); /*多浏览器支持↓*/
+                  -ms-transform:/*rotate(360deg)旋转特效*/ scale(0.8);
+				   -moz-transform:/*rotate(360deg)旋转特效*/ scale(0.8);
+				    -webkit-transform:/*rotate(360deg)旋转特效*/ scale(0.8);
+					 -o-transform:/*rotate(360deg)旋转特效*/ scale(0.8);
+				}
+
+.login_logo img{ transition:0.3s ease-out; -webkit-transition:0.3s ease-out; -o-transition:0.3s ease-out; -moz-transition:0.3s ease-out;}
+/*transform再未设置transition时直接显示结果而忽略了过程，而transition为其增加过渡的过程*/
+.login_logo img:hover{ transform:/*rotate(360deg)旋转特效*/ scale(0.8); /*多浏览器支持↓*/
+                  -ms-transform:/*rotate(360deg)旋转特效*/ scale(0.8);
+				   -moz-transform:/*rotate(360deg)旋转特效*/ scale(0.8);
+				    -webkit-transform:/*rotate(360deg)旋转特效*/ scale(0.8);
+					 -o-transform:/*rotate(360deg)旋转特效*/ scale(0.8);
+				}
+.reg_logo img{ transition:0.3s ease-out; -webkit-transition:0.3s ease-out; -o-transition:0.3s ease-out; -moz-transition:0.3s ease-out;}
+/*transform再未设置transition时直接显示结果而忽略了过程，而transition为其增加过渡的过程*/
+.reg_logo img:hover{ transform:/*rotate(360deg)旋转特效*/ scale(0.8); /*多浏览器支持↓*/
+                  -ms-transform:/*rotate(360deg)旋转特效*/ scale(0.8);
+				   -moz-transform:/*rotate(360deg)旋转特效*/ scale(0.8);
+				    -webkit-transform:/*rotate(360deg)旋转特效*/ scale(0.8);
+					 -o-transform:/*rotate(360deg)旋转特效*/ scale(0.8);
+				}				
+/*----------------------*/
+.shopImg_top{ transition:0.3s ease-out; -webkit-transition:0.3s ease-out; -o-transition:0.3s ease-out; -moz-transition:0.3s ease-out;}
+/*transform再未设置transition时直接显示结果而忽略了过程，而transition为其增加过渡的过程*/
+.shopImg_top:hover{ transform:/*rotate(360deg)旋转特效*/ scale(1.05); /*多浏览器支持↓*/
+                  -ms-transform:/*rotate(360deg)旋转特效*/ scale(1.05);
+				   -moz-transform:/*rotate(360deg)旋转特效*/ scale(1.05);
+				    -webkit-transform:/*rotate(360deg)旋转特效*/ scale(1.05);
+					 -o-transform:/*rotate(360deg)旋转特效*/ scale(1.05);
+				}
+/*---------------框特效----------------------------------*/
