@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="images/icon/logo_head.ico" />
+<link type="text/css" rel="stylesheet" href="style/reset.css" />
+<link type="text/css" rel="stylesheet" href="style/main.css" />
+<link type="text/css" rel="stylesheet" href="style/button_style.css" />
+<title>注册</title>
+</head>
+
+<body>
+    <div class="logoBar">
+    	<div class="reg">
+            <div class="regWidth">
+                <div class="reg_logo fl">
+                    <a href="#"><img src="images/logo.jpg" alt="shop购物网" /></a>
+                </div>
+                <h3 class="welcome_title">欢迎注册</h3>
+            </div>
+        </div>
+    </div>
+    <div class="regBox regWidth">
+    	<div class="reg_cont">
+        	<ul class="regList">
+            	<li class="mb_01"><span><i>*</i>&nbsp;账户名：</span><input type="text" class="reg_input user_icon" value="邮箱/用户名/手机号"   /><!--style="color:#999;"--></li>
+                <li class="mb_01"><span><i>*</i>&nbsp;请设置密码：</span><input type="password" class="reg_input pass_icon" /></li>
+                <li class="mb_01"><span><i>*</i>&nbsp;请确认密码：</span><input type="password" class="reg_input pass_icon" /></li>
+                <li class="mb_01"><span><i>*</i>&nbsp;邮箱：</span><input type="text" class="reg_input"</li>
+                <li class="mb_11"><input type="checkbox" id="a2"  class="checked"/><label for="a2">  我已阅读并同意</label><a href="#">《用户注册协议》</a></li>
+                <li class="mb_01"><input type="button" value="" class="reg_btn" /></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer">
+    	<p class="p1"><a href="#">网站简介</a>&nbsp;|&nbsp;<a href="#">网站公告</a>&nbsp;|&nbsp; <a href="#">招纳贤士</a>&nbsp;|&nbsp; <a href="#">联系我们</a>&nbsp;|&nbsp;<a href="#">客服热线</a>：400-675-1234</p>
+    	<p class="p2">Copyright©范佳斌所有&nbsp;&nbsp;&nbsp;京ICP备*****号&nbsp;&nbsp;&nbsp;京ICP证***-***号&nbsp;&nbsp;&nbsp;某市公安局XX分局备案编号：*********</p>
+    	<p class="p3"><a href="#"><img src="images/logo_footer.jpg" alt=""/></a><a href="#"><img src="images/logo_footer.jpg" alt=""/></a><a href="#"><img src="images/logo_footer.jpg" alt=""/></a><a href="#"><img src="images/logo_footer.jpg" alt=""/></a></p>
+	</div>
+</body>
+</html>
