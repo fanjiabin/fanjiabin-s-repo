@@ -1,3 +1,3 @@
 # fanjiabin-s-repo
 还在学习的小白的仓库
-![image](http://ww1.sinaimg.cn/bmiddle/69917555jw1f1dwuekhzbj20c831m4ah.jpg)
+![image](http://ww4.sinaimg.cn/large/7289bee1jw1f1f35ls5daj21kw28gto1.jpg)
